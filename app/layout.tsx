@@ -1,6 +1,6 @@
 import type {Metadata, Viewport} from "next";
 import "./globals.css";
-import {CSSProperties} from "react";
+import {CSSProperties, ReactNode} from "react";
 
 export const metadata: Metadata = {
   title: "travel app",
@@ -15,7 +15,7 @@ export const viewport:Viewport = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
 
     // todo safearea left right bottom
