@@ -1,8 +1,5 @@
+import {redirect} from "next/navigation";
 
-export default function Home() {
-  return (
-      <div className={"px-4"}>
-        <p>ok</p>
-      </div>
-  );
+export default function RootPage() {
+    redirect('/home');
 }
