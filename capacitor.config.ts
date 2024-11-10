@@ -8,7 +8,7 @@ const config: CapacitorConfig = {
   // 192.168.10.206
   // 10.189.85.98
   server:{
-    url:'http://10.189.85.98:3000',
+    url:'http://192.168.10.206:3000',
     cleartext:true
   }
 };

@@ -9,9 +9,8 @@ export const metadata: Metadata = {
 export const viewport:Viewport = {
     initialScale:1,
     width:'device-width',
-  viewportFit:'cover',
+    viewportFit:'cover',
 };
-
 
 export default function RootLayout({
   children,
@@ -19,6 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
+    // todo safearea left right bottom
     const safeAreaStyle:CSSProperties = {
         'paddingTop':'env(safe-area-inset-top)',
     };
