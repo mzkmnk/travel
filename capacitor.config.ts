@@ -5,8 +5,10 @@ const config: CapacitorConfig = {
   appName: 'travel',
   webDir: 'out',
   // command is 'ipconfig getifaddr en0'
+  // 192.168.10.206
+  // 10.189.85.98
   server:{
-    url:'http://192.168.10.206:3000',
+    url:'http://10.189.85.98:3000',
     cleartext:true
   }
 };
