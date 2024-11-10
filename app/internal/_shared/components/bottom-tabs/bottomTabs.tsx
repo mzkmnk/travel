@@ -13,7 +13,7 @@ export default function BottomTabs(){
     const judgeSamePathname = (path: string):boolean => path === pathname;
 
     return (
-        <div className={"fixed bottom-0 left-0 w-full border-t h-16 px-5 py-2 flex gap-3 justify-around"}>
+        <div className={"bg-white fixed bottom-0 left-0 w-full border-t h-16 px-5 py-2 flex gap-3 justify-around"}>
             <BottomTabItem onClick={() => {router.push('/internal/home')}}>
                 <House strokeWidth={judgeSamePathname('/internal/home') ? '2.5':'1.7'} ></House>
             </BottomTabItem>
